@@ -46,5 +46,6 @@ export default new Router({
       name: 'course',
       component: Course
     },
-  ]
+  ],
+  mode: 'history'     // 去掉路由中的 # 
 })
